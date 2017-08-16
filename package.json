@@ -1,0 +1,32 @@
+{
+  "name": "firebase-rules-describe",
+  "version": "1.0.0",
+  "description": "Describe Firebase Rules to generate complex rules.json files",
+  "main": "lib/index.js",
+  "bin": {
+    "firebase-rules-describe": "./lib/index.js",
+    "firebase-rules-describe-process": "./lib/index-process.js"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib/* && tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firebase",
+    "rules",
+    "generate",
+    "describe"
+  ],
+  "author": "Matijs Eijkemans <matijs@cell-0.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "strip-json-comments": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.9.1",
+    "@types/node": "^8.0.20",
+    "@types/strip-json-comments": "0.0.28"
+  }
+}
