@@ -1,6 +1,6 @@
 {
   "name": "firebase-rules-describe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Describe your Firebase rules in your native language and split the definitions in multiple files.",
   "main": "lib/index.js",
   "bin": {
