@@ -1,7 +1,7 @@
 {
   "name": "firebase-rules-describe",
   "version": "1.0.0",
-  "description": "Describe Firebase Rules to generate complex rules.json files",
+  "description": "Describe your Firebase rules in your native language and split the definitions in multiple files.",
   "main": "lib/index.js",
   "bin": {
     "firebase-rules-describe": "./lib/index.js",
@@ -20,6 +20,10 @@
   ],
   "author": "Matijs Eijkemans <matijs@cell-0.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cell0/firebase-rules-describe.git"
+  },
   "dependencies": {
     "commander": "^2.11.0",
     "strip-json-comments": "^2.0.1"
